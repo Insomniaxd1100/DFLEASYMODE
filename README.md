@@ -53,3 +53,77 @@ OTHER MODELS
 1.7M pre GAN - https://drive.google.com/file/d/1jJYMAxacioMjANlJb3VRJofEAyABcFHH/view?usp=share_link 2M GAN - https://drive.google.com/file/d/1DVd1ji_kUkzBSOJILoGIG6MHizjHsrTh/view?usp=share_link
 
 Tooth Trainer faceset (Arnold) (Credit to Druzzil) https://drive.google.com/file/d/13z5CovqYgsGmSefFttSOotuXjJemTBiW/view
+
+# DEEPFACELIVE  MODELS  I TRAINED
+
+Joe Biden (224) 
+https://drive.google.com/file/d/1ArZGuvbIm5JCu9ewasngq2RqBA55epFe/view?usp=share_link The best Biden dfm for sure trained on 20 million pretrain 224
+
+Donald Trump (224)
+https://drive.google.com/file/d/1gwE88BagFvM3CANrzownVq_pmpXspZWG/view?usp=share_link  The best Trump dfm for sure trained on 20 million pretrain 224
+
+Pete Buttigieg. (224)
+https://drive.google.com/file/d/1Ykts_bRdga1vOpCl5allcRtypGUgzD8F/view?usp=sharing 
+
+Hunter Biden(224)
+https://drive.google.com/drive/folders/1ZWKk14XsfT8hMSqy2OzLaIWbPF0fAepS?usp=share_link 
+
+Kamala  Harris (224) 
+https://drive.google.com/file/d/1QbX_YkAc3foUZWD_8BembydZlMXaBJ--/view?usp=sharing 
+
+Ben Shapiro (224)
+https://drive.google.com/file/d/1L9ycBXgZGj0sCI5gYe9bc6LIDdvdMrbE/view?usp=sharing 
+
+
+ANDREW TATE (320
+https://drive.google.com/file/d/1oMqZrpXKOhW4JFmCEAGDSjbX2ZjE864T/view?usp=sharing
+
+Jordan Peterson (320)
+https://drive.google.com/file/d/1OK00JxVZLijGTFAj3CP-9PgI5mqyTPhz/view?usp=share_link
+
+Bill Clinton (224)
+https://drive.google.com/file/d/1r1Stlp9Klbe-VXVRDRDaC21cILnW4i6i/view?usp=share_link
+
+Joe biden Head(its ok) 
+https://drive.google.com/drive/folders/10sFAnEzMHeaC8myu3tJKCQEeLslPv3YF?usp=sharing 
+
+Avatar (224)
+https://drive.google.com/file/d/1eRkCOYDTAsgRn7UR44qjE7JbiO3iXu7P/view?usp=share_link 
+
+Ron DeSantis (330)
+https://drive.google.com/file/d/1hT6Qwwo86XQVuMPxV3-NqdqCBqmDcL87/view?usp=share_link
+
+George Bush (224)
+https://drive.google.com/file/d/13siSOSa_H19aIck9RY69-laS_zYtT_KZ/view?usp=sharing
+Barrack Obama (224)
+
+https://drive.google.com/file/d/1yofW_aZEfFGJp1fP2ydKEE3MUJbNluDo/view?usp=share_link
+
+Megan Markle (320)
+https://drive.google.com/file/d/1oZEaBPAhjgVSNWZZo4gjTPxUWu-UANVy/view?usp=drive_link
+
+AOC (224)
+https://drive.google.com/file/d/1Xgxocv70FfSFr-pAfkF6d6JNAR-gu4DM/view?usp=sharing
+
+JOE ROGAN (320)
+
+Elvis Presley
+https://drive.google.com/file/d/15RJtHMYk6B5zx2ZG9kGcsCMFYSIJyyMl/view?usp=drive_link
+
+Jen Psaki (224)
+https://drive.google.com/file/d/1DpTKlTafF18DkIi1ZUU9lRFTLlirOVwC/view?usp=drive_link
+
+Q shaman ( gonna redo)
+https://drive.google.com/file/d/1ht3xt5rc0x9q8jr2nxbdjunZgEaLLON-/view?usp=drive_link
+Abe Lincoln
+https://drive.google.com/file/d/1H1QEpq6X80n2rOe9koaueG1TdAOagQD6/view?usp=sharing
+
+Tucker Carlson (224)
+https://drive.google.com/file/d/11MhYlkpMoFrAmsKV7m-xuTI3GhY5svCX/view?usp=drive_link
+
+Elizabeth Warren (224)
+https://drive.google.com/file/d/1sqyLTV1a0pVdF-tE9D9ImkbuQZmEKPBn/view?usp=share_link
+
+Christopher Cuomo(224)
+
+https://drive.google.com/file/d/1WXJ29qL-Z8dGzmiYGWDB2Wolp3OXS-c0/view?usp=share_link 
