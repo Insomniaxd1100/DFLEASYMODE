@@ -1,73 +1,51 @@
-\Send me coffee $cjordanhot 
-on cashapp
+# Send me coffee $cjordanhot on CashApp
 
- Put files in  "C:\DeepFaceLab\DeepFaceLab_NVIDIA_RTXXXXX_series"
+Put files in "C:\DeepFaceLab\DeepFaceLab_NVIDIA_RTXXXXX_series"
 
-Go in order DSt and src are seperate incase you are using RMM2 for dst alinged
+Go in order: DSt and src are separate in case you are using RMM2 for dst aligned.
 
+## FAST TRACK YOUR MODELS OPTIONAL YOU DONT HAVE TO DO ANYTHING BUT DOWNLOAD ABOVE AND PUT WITH OTHER SCRIPTS THIS IS EXTRA FOR A ONE DAY MODEL CREATION
 
+1. Download this and put it into the model folder.
+2. Make a GAN folder: MODEL/GAN. Put those GAN files away; you will need them later.
+3. Download this and put it into data_dst/Aligned (unless you are ready to train on the DST you are using - not a good idea to start with).
 
-FAST TRACK YOUR MODELS =
-#1 DOWNLOAD THIS  PUT IT INTO model folder
-#2 MAKE A GAN FOLDER MODEL/GAN PUT THOSE GAN FILES AWAY YOU WILL NEED LATER
+You can pick your choice:
 
+- RTT2: [Download RTT2](https://drive.google.com/u/0/uc?id=1jZlh2K0YHzTccTDyk1bxWmyB9kTWyR6c)
+- RTT1: [Download RTT1](https://drive.google.com/u/0/uc?id=1-WWffEksKm1zSHh4hmh43cyBXi0HjHbj) (Original RTT)
+- RTTMINI: [Download RTTMINI](https://drive.google.com/file/d/1PPjZKs8MBzTrii5Rxhm1lNdHNsDXeSXt/view?usp=drivesdk)
 
-#3 DOWNLOAD THIS PUT INTO data_dst/Aligned(unless you are ready to train on the DST you are using ( not a good idea to startZ)
+4. Put both items into the MODEL folder. **Read all instructions before training**.
 
-You pick your choice 
+- RTT V2 224: 20 million iterations of training. Extra trained by Rumateus. [Download RTT V2 224](https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
 
+# A MUST
+- Pretrained xseg: 14 million iterations. [Download pretrained xseg](https://mega.nz/file/oc91mQwL#i4y4XTh7de-0XXqYgbXxrPZ2gGrz70Eg8fJ6BHUMpWw)
 
-RTT2 
+# RTT V2 model to about 20 million total iterations (a lot on batch 16) over the past while and wanted to share it in case anyone wants to use that as a starting point. As a point of clarification, I last reset the iteration count about 2 million iterations ago but it had been running constantly for about 2 months  on top of the 10 million iterations already trained by iperov by that point: 
 
-https://drive.google.com/u/0/uc?id=1jZlh2K0YHzTccTDyk1bxWmyB9kTWyR6c
+https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing
 
+And this was my process as it does differ a bit from the official instructions
 
-RTT1
+1. Save the GAN files elsewhere
 
-https://drive.google.com/u/0/uc?id=1-WWffEksKm1zSHh4hmh43cyBXi0HjHbj ORGINAL RTT
+2. Run with those settings until SRC loss plateaus, on batch 16 around 2-4k iterations for me
 
-RTTMINI
+3. Turn on LRD and run until expressions in the preview are consistent, usually around 60k iterations but can check with a test dfm at this point
 
-https://drive.google.com/file/d/1PPjZKs8MBzTrii5Rxhm1lNdHNsDXeSXt/view?usp=drivesdk
+4. Turn off RW, turn on blur out mask. No hard and fast rules here, usually 30-70k
 
+5. Start GAN with 0.1 power, 28 patch size, 16 dims. Save and exit as soon as this starts, replace GAN files with the ones saved separately above.
 
-MiniRTM DST Faceset  - Functions as a replacement for the larger, original RTM facesets created by Iperov.  Around 12,000 images, covers angles pretty well and has a lot of lighting and shadow variations.  Also incorporates the tooth trainer.  Most of the images came from 4k or 8k footage Created By druuzil https://drive.google.com/file/d/1PPjZKs8MBzTrii5Rxhm1lNdHNsDXeSXt/view?usp=drivesdk
+6. Run GAN again with the same settings but watch closely - sharp face sets can be done in 15-30 minutes and be completely unusable with artifacts by 2 hours. Less sharp facesets can take up to ~1 hour 
 
-
-
-
-
-#4 PUT INTO MODEL FOLDER  BOTH ITEMS **READ ALL BEFORE TRAINING
-
-RTT V2 224  20 million iterations of training Extra Trained By Rumateus       
-
- https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing                                                                                                                       For Best Universal Results use this DST Faceset   
-
-  
-https://mega.nz/file/oc91mQwL#i4y4XTh7de-0XXqYgbXxrPZ2gGrz70Eg8fJ6BHUMpWw pretrained xseg 14 million iterations
-
-
-Training protip 
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          #5. MAKE SURE YOU DID STEP ONE Save the GAN files elsewhere
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2. Run with those settings and disable pretrain until SRC loss plateaus, on batch 16 and batch 8 for 8gb vram gpus around 2-4k iterations for me
-
-#6. Turn on LRD and run until expressions in the preview are consistent, usually around 60k or more iterations, then switch this DST faceset to ⁠🧑🏻-faceset-share⁠ and go back and forth between the DST facesets until it looks good with expressions, and you can check with a test DFM at this point.
-
-#7. Turn off RW, turn on blur out mask,keep LRD on. No hard and fast rules here, usually 30-70k or until it looks good as a dfm and doesn't flicker
-
-#8. Don't start Until all teeth and stuff are of good quality Start GAN with 0.1 power, 28 patch sizes, and 16 dims. Save and exit as soon as this starts; replace GAN files with the ones saved separately above.
-
-#9. Run GAN again with the same settings but watch closely - sharp face sets can be done in 15-30 minutes and be completely unusable with artifacts by 2 hours
-
-For the next SRC delete inter_AB, KEEP inter_B, and go back to the settings in step 2. Use the same GAN files originally put aside in step 1 each time when it comes
+For the next SRC delete inter_AB, KEEP inter_B, and go back to the settings in step 2. Use the same GAN files originally put aside in step 1 each time when it comes back to step 5, reusing those further resulted in worse artifacts for me 
 
 OTHER MODELS
 
-
-288 AMP model trained to 1.7M and 2M, respectively by Medic    
-  1.7M pre GAN - https://drive.google.com/file/d/1jJYMAxacioMjANlJb3VRJofEAyABcFHH/view?usp=share_link
-2M GAN - https://drive.google.com/file/d/1DVd1ji_kUkzBSOJILoGIG6MHizjHsrTh/view?usp=share_link 
+288 AMP model trained to 1.7M and 2M, respectively by Medic
+1.7M pre GAN - https://drive.google.com/file/d/1jJYMAxacioMjANlJb3VRJofEAyABcFHH/view?usp=share_link 2M GAN - https://drive.google.com/file/d/1DVd1ji_kUkzBSOJILoGIG6MHizjHsrTh/view?usp=share_link
 
 Tooth Trainer faceset (Arnold) (Credit to Druzzil) https://drive.google.com/file/d/13z5CovqYgsGmSefFttSOotuXjJemTBiW/view
