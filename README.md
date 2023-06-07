@@ -8,20 +8,25 @@ Go in order: DSt and src are separate in case you are using RMM2 for dst aligned
 THE FILES [the model files you still need to download xseg below](https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
 1. Download this and put it into the model folder.
 2. Make a GAN folder: MODEL/GAN. Put those GAN files away; you will need them later.
-3. Download this and put it into data_dst/Aligned (unless you are ready to train on the DST you are using - not a good idea to start with).
+
+# ----------------------------------------------------------------------------------------------------------------------------
+ 
+
+4. Download this and put it into data_dst/Aligned (unless you are ready to train on the DST you are using - not a good idea to start with).
 
 You can pick your choice:
 
 - RTT2: [Download RTT2](https://drive.google.com/u/0/uc?id=1jZlh2K0YHzTccTDyk1bxWmyB9kTWyR6c)
 - RTT1: [Download RTT1](https://drive.google.com/u/0/uc?id=1-WWffEksKm1zSHh4hmh43cyBXi0HjHbj) (Original RTT)
 - RTTMINI: [Download RTTMINI](https://drive.google.com/file/d/1PPjZKs8MBzTrii5Rxhm1lNdHNsDXeSXt/view?usp=drivesdk)
-
+# ----------------------------------------------------------------------------------------------------------------------------
 4. Put both items into the MODEL folder. **Read all instructions before training**.
 
 - RTT V2 224: 20 million iterations of training. Extra trained by Rumateus. [Download RTT V2 224](https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
 
 # A MUST
 - Pretrained xseg: 14 million iterations. [Download pretrained xseg](https://mega.nz/file/oc91mQwL#i4y4XTh7de-0XXqYgbXxrPZ2gGrz70Eg8fJ6BHUMpWw)
+# ----------------------------------------------------------------------------------------------------------------------------
 
 # RTT V2 model to about 20 million total iterations (a lot on batch 16) over the past while and wanted to share it in case anyone wants to use that as a starting point. As a point of clarification, I last reset the iteration count about 2 million iterations ago but it had been running constantly for about 2 months  on top of the 10 million iterations already trained by iperov by that point: 
 
