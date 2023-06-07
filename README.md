@@ -23,7 +23,10 @@ You can pick your choice:
 4. Put both items into the MODEL folder. **Read all instructions before training**.
 
 - RTT V2 224: 20 million iterations of training. Extra trained by Rumateus. [Download RTT V2 224](https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
-
+- 
+- A Head faceset politicians and xseged
+[DOWNLOAD faceset politicians and xseged]
+(https://drive.google.com/file/d/1qSTI31mmfKM38zeeVuVfQ9-wn6afI91x/view?usp=share_link) super high rez head facepak xseged  98,000 Heads politicians with head 480 model trained 1 million and xseg 850k trained head up scaled all
 # A MUST
 - Pretrained xseg: 14 million iterations. [Download pretrained xseg](https://mega.nz/file/oc91mQwL#i4y4XTh7de-0XXqYgbXxrPZ2gGrz70Eg8fJ6BHUMpWw)
 # ----------------------------------------------------------------------------------------------------------------------------
