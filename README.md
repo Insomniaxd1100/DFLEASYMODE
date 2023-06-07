@@ -53,6 +53,33 @@ OTHER MODELS
 1.7M pre GAN - https://drive.google.com/file/d/1jJYMAxacioMjANlJb3VRJofEAyABcFHH/view?usp=share_link 2M GAN - https://drive.google.com/file/d/1DVd1ji_kUkzBSOJILoGIG6MHizjHsrTh/view?usp=share_link
 
 Tooth Trainer faceset (Arnold) (Credit to Druzzil) https://drive.google.com/file/d/13z5CovqYgsGmSefFttSOotuXjJemTBiW/view
+# The Iperov method ignore my way if you do this 
+
+Model Instructions:
+
+1. place RTM WF Faceset V2 from Yandex Storage or Google Drive below to workspace/data_dst/aligned
+
+RTM WF Faceset (V2) link:
+Google Drive: https://drive.google.com/file/d/1jZlh2K0YHzTccTDyk1bxWmyB9kTWyR6c/view?usp=sharing (Thanks to Jackmjedi for the upload)
+
+2. place your celeb to workspace/data_src/aligned
+
+3. do not change settings. Train +500.000
+
+4. replace dst faceset with your faceset in workspace/data_dst/aligned
+
+5. continue train +500.000, (optional) deleting inter_AB.npy every 100.000 (save, delete, continue run)
+
+6. random_warp:OFF, train +500.000
+
+7. GAN 0.1 power, patch size 28, gan_dims:32. Train until the src loss value has not increased in the last 12 hours.
+
+8. (optional) finalize model by disabling masked training for 100-200 iterations.
+
+RTT 224 Model (V2) link: https://drive.google.com/file/d/1auhf7Wtuwygi8rGFx4EJ4OEgVp1LtQpj/view?usp=sharing
+
+
+
 
 # DEEPFACELIVE  MODELS  I TRAINED
 
@@ -95,6 +122,7 @@ https://drive.google.com/file/d/1hT6Qwwo86XQVuMPxV3-NqdqCBqmDcL87/view?usp=share
 
 George Bush (224)
 https://drive.google.com/file/d/13siSOSa_H19aIck9RY69-laS_zYtT_KZ/view?usp=sharing
+
 Barrack Obama (224)
 
 https://drive.google.com/file/d/1yofW_aZEfFGJp1fP2ydKEE3MUJbNluDo/view?usp=share_link
@@ -106,6 +134,7 @@ AOC (224)
 https://drive.google.com/file/d/1Xgxocv70FfSFr-pAfkF6d6JNAR-gu4DM/view?usp=sharing
 
 JOE ROGAN (320)
+https://drive.google.com/file/d/1XE1f8TdbKpGCh9-3jXiG9W2Vn7h84Fdj/view?usp=drive_link
 
 Elvis Presley
 https://drive.google.com/file/d/15RJtHMYk6B5zx2ZG9kGcsCMFYSIJyyMl/view?usp=drive_link
@@ -115,6 +144,7 @@ https://drive.google.com/file/d/1DpTKlTafF18DkIi1ZUU9lRFTLlirOVwC/view?usp=drive
 
 Q shaman ( gonna redo)
 https://drive.google.com/file/d/1ht3xt5rc0x9q8jr2nxbdjunZgEaLLON-/view?usp=drive_link
+
 Abe Lincoln
 https://drive.google.com/file/d/1H1QEpq6X80n2rOe9koaueG1TdAOagQD6/view?usp=sharing
 
