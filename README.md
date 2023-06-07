@@ -5,7 +5,7 @@ Put files in "C:\DeepFaceLab\DeepFaceLab_NVIDIA_RTXXXXX_series"
 Go in order: DSt and src are separate in case you are using RMM2 for dst aligned.
 
 ## FAST TRACK YOUR MODELS OPTIONAL YOU DONT HAVE TO DO ANYTHING BUT DOWNLOAD ABOVE AND PUT WITH OTHER SCRIPTS THIS IS EXTRA FOR A ONE DAY MODEL CREATION
-[the model files you still need to download xseg below] (https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
+THE FILES [the model files you still need to download xseg below](https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing)
 1. Download this and put it into the model folder.
 2. Make a GAN folder: MODEL/GAN. Put those GAN files away; you will need them later.
 3. Download this and put it into data_dst/Aligned (unless you are ready to train on the DST you are using - not a good idea to start with).
@@ -25,7 +25,6 @@ You can pick your choice:
 
 # RTT V2 model to about 20 million total iterations (a lot on batch 16) over the past while and wanted to share it in case anyone wants to use that as a starting point. As a point of clarification, I last reset the iteration count about 2 million iterations ago but it had been running constantly for about 2 months  on top of the 10 million iterations already trained by iperov by that point: 
 
-https://drive.google.com/file/d/1tpPEUDXr3LMGRPmzxhyvjgPz4b991qI1/view?usp=sharing
 
 And this was my process as it does differ a bit from the official instructions
 
